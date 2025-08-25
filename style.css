@@ -210,4 +210,93 @@ body{
     height: 300px;
     object-fit: cover;
     border-radius: 8px; /* Opcional: deixa a imagem com cantos arredondados */
+
+}
+
+/* Responsividade para tablets */
+@media (max-width: 1024px) {
+    .corpo1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .corpo1 img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .info3 .conteudo {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #inf {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Responsividade para celular */
+@media (max-width: 768px) {
+    .Cima {
+        height: auto;
+        padding: 15px;
+    }
+
+    .Cima h1 {
+        font-size: 32px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .menu a {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .corpo1 {
+        padding: 20px;
+    }
+
+    .text .m1 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .text .p2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .info3 {
+        margin: 10px;
+        max-width: 100%;
+    }
+
+    .info3 h2 {
+        margin-left: 0;
+        line-height: 1.4;
+        font-size: 24px;
+    }
+
+    .info3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Baixo img {
+        height: 60px;
+    }
+
+    .Baixo p, .Baixo2 p {
+        font-size: 14px;
+    }
 }
